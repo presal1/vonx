@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<!-- Mirrored from cavada.org/ by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 12 Dec 2023 00:16:11 GMT -->
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Vonx</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.html">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="images/logo.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/logo.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+    <script src='../kit.fontawesome.com/a076d05399.html' crossorigin='anonymous'></script>
+	 <!-- font awesome style -->
+	 <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	  <!-- bootstrap core css -->
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<!-- Load google font
+	================================================== -->
+	<script type="text/javascript">
+		WebFontConfig = {
+			google: { families: [ 'Catamaran:300,400,600,700', 'Raleway:100,700', 'Roboto:700,900'] }
+		};
+		(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + 
+			'://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+	</script>
+
+	<!-- Load other scripts
+	================================================== -->
+	<script type="text/javascript">
+		var _html = document.documentElement;
+		_html.className = _html.className.replace("no-js","js");
+	</script>
+	
+	<style>
+html {
+  scroll-behavior: smooth;
+}
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown-options a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  padding:20px 40px;
+}
+
+.dropdown-options a:hover {
+  color: #0a0a23;
+  background-color: #ddd;
+  border-radius:5px;
+}
+.arrow {
+  border: solid;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.flex-parent {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.button.margin-right {
+  margin-right: 20px;
+}
+
+.horizontal-scroll-wrapper {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: calc(#{$finalHeight} + #{$scrollBarHeight});
+  max-height: $finalWidth;
+  margin: 0;
+  padding-top: $scrollBarHeight;
+  background: #abc;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg) translateY(-$finalHeight);
+  transform-origin: right top;
+  & > div {
+    display: block;
+    padding: 5px;
+    background: #cab;
+    transform: rotate(90deg);
+    transform-origin: right top;
+  }
+}
+
+.squares {
+  padding: $finalHeight 0 0 0;
+  & > div {
+    width: $finalHeight;
+    height: $finalHeight;
+    margin: 10px 0;
+  }
+}
+
+</style>
+
+	<style>.preloader{width: 100%;height: 100%;position: fixed;background-color: #fff;z-index: 9999;}</style>
+
+</head>
+
+<body>
+
+	<div class="preloader"></div>
+
+	<div class="wrapper">
+	    
+	    <!-- <header class="header">
+			<a href="#" class="logo">
+				<img src="images/logo.png" height= 60px width="60px">
+			</a>
+
+			<ul class="menu">
+			
+				<li class="menu__item">
+					<a href="#Services" class="menu__link">Services</a>
+				</li>
+				<li class="menu__item">
+					<a href="#About-Us" class="menu__link">About Us</a>
+				</li>
+				<li class="menu__item">
+					<a href="#Features" class="menu__link">Features</a>
+				</li>
+				<li class="menu__item">
+					<a href="#Allocation" class="menu__link">Allocation </a>
+				</li>
+				<li class="menu__item">
+					<a href="#Roadmap" class="menu__link">Roadmap</a>
+				</li>
+				<li class="menu__item">
+					<a href="#team" class="menu__link">TEAM</a>
+				</li>
+				<li class="menu__item">
+					<a href="#partnership" class="menu__link">Partnership</a>
+				</li>
+			</ul>
+
+
+			<div class="btn-menu">
+				<div class="one"></div>
+				<div class="two"></div>
+				<div class="three"></div>
+			</div>
+		</header>
+
+		<div class="fixed-menu">
+			<div class="fixed-menu__header">
+				<a href="#" class="logo">
+					<img src="images/logo.png" height= 45px>
+				</a>
+	
+				<div class="btn-close">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 47.971 47.971" style="enable-background:new 0 0 47.971 47.971;" xml:space="preserve" width="512px" height="512px">
+							<path d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88   c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242   C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879   s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z" fill="#006DF0"/></svg>
+				</div>
+			</div>
+	
+			<div class="fixed-menu__content">
+	
+				<ul class="mob-menu">
+					<li class="menu__item">
+						<a href="#Services" class="menu__link">Services</a>
+					</li>
+					<li class="menu__item">
+						<a href="#About-Us" class="menu__link">About Us</a>
+					</li>
+					<li class="menu__item">
+						<a href="#Features" class="menu__link">Features</a>
+					</li>
+					<li class="menu__item">
+						<a href="#Allocation" class="menu__link">Allocation </a>
+					</li>
+					<li class="menu__item">
+						<a href="#Roadmap" class="menu__link">Roadmap</a>
+					</li>
+					<li class="menu__item">
+						<a href="#team" class="menu__link">TEAM</a>
+					</li>
+					<li class="menu__item">
+						<a href="#partnership" class="menu__link">Partnership</a>
+					</li>
+					
+				</ul>
+				
+	
+			</div>
+		</div> -->
+		
+
+		<header>
+			<nav>
+			  <a href="#home" id="logo"><img src="images/logo.png" height= 60px width="60px"></a>
+			  <i class="fas fa-bars" id="ham-menu"></i>
+			  <ul id="nav-bar">
+				<li>
+				  <a href="#Services">Services</a>
+				</li>
+				<li>
+				  <a href="#About-Us">About Us</a>
+				</li>
+				<li>
+				  <a href="#Features">Features</a>
+				</li>
+				<li>
+				  <a href="#Allocation">Allocation</a>
+				</li>
+				<li>
+				  <a href="#Roadmap">Roadmap</a>
+				</li>
+				<li>
+					<a href="#team">TEAM</a>
+				  </li>
+				  <li>
+					<a href="#partnership">Partnership</a>
+				  </li>
+			  </ul>
+			</nav>
+		  </header>
+
+
+		  <script>
+			let hamMenuIcon = document.getElementById("ham-menu");
+let navBar = document.getElementById("nav-bar");
+let navLinks = navBar.querySelectorAll("li");
+
+hamMenuIcon.addEventListener("click", () => {
+  navBar.classList.toggle("active");
+  hamMenuIcon.classList.toggle("fa-times");
+});
+navLinks.forEach((navLinks) => {
+  navLinks.addEventListener("click", () => {
+    navBar.classList.remove("active");
+    hamMenuIcon.classList.toggle("fa-times");
+  });
+});
+		  </script>
+		
+
+	    
+	
+
+      <section class="promo" style="background-image: url(img/1.png);" id="main">
+			<div class="col-12 container">
+				<div class="row">
+					<div class="col-12 promo__content" data-aos="fade-right">
+						<h1 class="col-12" style="font-size:40px; line-height:50px"><center>Vonx Blockchain<br>For Everyone</center></h1>
+                        <br>
+						<h3 style="color:#ababab;">
+							<center>Lorem ipsum dolor sit amet consectetur adipisicing elit. </center>
+						</h3>
+                        <br><br>
+						<div class="promo__btns-wrap flex-parent jc-center">
+                                                    <a href="" class="btn btn--big btn--blue1 btn--orange" ><span>Buy Vonx</span></a>
+							
+						</div>
+
+					</div>
+				</div>
+				
+			</div>
+			<div class="scroll-down">
+				<img src="img/scroll-down.png" alt="">
+			</div>
+		</section>
+
+
+
+	    <section id="components">
+			<div class="containerr" id="containerr">
+			  <h2 style="color: white">
+				Step by step, you will understand the Crypto World
+			  </h2>
+			  <div class="video-componets">
+				<div class="video">
+				  <video autoplay loop muted>
+					<source src="components.mp4" />
+				  </video>
+				  <div class="one">
+					<p>01</p>
+					<h4>Drc20</h4>
+				  </div>
+				  <div class="two">
+					<p>02</p>
+					<h4>NFT</h4>
+				  </div>
+				  <div class="three">
+					<p>03</p>
+					<h4>DeFi</h4>
+				  </div>
+				  <div class="four">
+					<p>04</p>
+					<h4>Metavers</h4>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding" id="Services">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Our Services
+          </h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Currency Wallet
+                </h5>
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestias soluta quidem commodi,
+                </p>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Security Storage
+                </h5>
+                <p>
+                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi sapiente delectus tempora odio
+                </p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Expert Support
+                </h5>
+                <p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi sapiente delectus tempora odio 
+                </p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a href="">
+            View All
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+
+
+    <!-- about section -->
+
+	<section class="about_section layout_padding" id="About-Us">
+		<div class="container  ">
+		  <div class="heading_container heading_center">
+			<h2>
+			  About Us
+			</h2>
+			
+		  </div>
+		  <div class="row">
+			<div class="col-md-6 ">
+			  <div class="img-box">
+				<img src="images/about-img.png" alt="">
+			  </div>
+			</div>
+			<div class="col-md-6">
+			  <div class="detail-box">
+				<h2>
+				  We Are Vonx
+				</h2>
+				<p>
+				  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+				  in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+				  are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
+				  the middle of text. All
+				</p>
+				<p>
+				  Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
+				</p>
+				
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	
+	  <!-- end about section -->
+
+
+		<!-- <section class="section section--no-pad-bot services" id="services">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section-header section-header--animated section-header--center section-header--medium-margin">
+							<h4></h4>
+							<h2>Use cases</h2>
+						</div>
+                        
+						<div class="services__items">
+                            
+							<div class="services__left">
+								<div data-aos="fade-up" class="service">
+									<div class="service__bg" style="background-color: #e85f70; box-shadow: 0 0 51px rgba(232, 95, 112, 0.74); box-shadow: 0 0 51px rgba(232, 95, 112, 0.74);"></div>
+									<img src="img/service-icon-1.svg" alt="">
+									<div class="service__title">
+										
+										Decentralized Finance									</div>
+								</div>
+								<div data-aos="fade-up" data-aos-delay="200" class="service">
+									<div class="service__bg" style="background-color: #fa8936; background-image: linear-gradient(-234deg, #ea9d64 0%, #fa8936 100%); box-shadow: 0 0 51px rgba(250, 137, 54, 0.74);"></div>
+									<img src="img/service-icon-2.svg" alt="">
+									<div class="service__title">
+										DAO Tooling									</div>
+								</div>
+							</div>
+							<div class="services__right">
+								<div data-aos="fade-up" data-aos-delay="400" class="service" >
+									<div class="service__bg" style="background-image: linear-gradient(-234deg, #6ae472 0%, #4bc253 100%); box-shadow: 0 0 51px rgba(75, 194, 83, 0.74);"></div>
+									<img src="img/service-icon-3.svg" alt="">
+									<div class="service__title">
+										Oracle Networks									</div>
+								</div>
+								<div data-aos="fade-up" data-aos-delay="600" class="service">
+									<div class="service__bg" style="background-color: #0090d5; background-image: linear-gradient(-234deg, #29aceb 0%, #0090d5 100%); box-shadow: 0 0 51px rgba(0, 144, 213, 0.74);"></div>
+									<img src="img/service-icon-4.svg" alt="">
+									<div class="service__title">
+										Decentralized Storage									</div>
+								</div>
+							</div>
+						</div>
+                        <br><br>                  
+
+                        <div class="services__items">
+                            
+							<div class="services__left">
+								<div data-aos="fade-up" data-aos-delay="600" class="service">
+									<div class="service__bg" style="background-color: #0090d5; background-image: linear-gradient(-234deg, #29aceb 0%, #0090d5 100%); box-shadow: 0 0 51px rgba(0, 144, 213, 0.74);"></div>
+									<img src="img/service-icon-4.svg" alt="">
+									<div class="service__title">
+										Identity KYC									</div>
+								</div>
+                                <div data-aos="fade-up" data-aos-delay="400" class="service" >
+									<div class="service__bg" style="background-image: linear-gradient(-234deg, #6ae472 0%, #4bc253 100%); box-shadow: 0 0 51px rgba(75, 194, 83, 0.74);"></div>
+									<img src="img/service-icon-3.svg" alt="">
+									<div class="service__title">
+										Metaverse & NFT									</div>
+								</div>
+							</div>
+							<div class="services__right">
+								<div data-aos="fade-up" data-aos-delay="200" class="service">
+									<div class="service__bg" style="background-color: #fa8936; background-image: linear-gradient(-234deg, #ea9d64 0%, #fa8936 100%); box-shadow: 0 0 51px rgba(250, 137, 54, 0.74);"></div>
+									<img src="img/service-icon-2.svg" alt="">
+									<div class="service__title">
+										Web 3 Protocols									</div>
+								</div>
+                                <div data-aos="fade-up" class="service">
+									<div class="service__bg" style="background-color: #e85f70; box-shadow: 0 0 51px rgba(232, 95, 112, 0.74); box-shadow: 0 0 51px rgba(232, 95, 112, 0.74);"></div>
+									<img src="img/service-icon-1.svg" alt="">
+									<div class="service__title">
+										
+										Fraud Detection & Security									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+	    <img src="img/services-bg1.png" alt="" class="services__bg" style="margin-top: 130px;">
+			<img src="img/services-bg-1.png" class="services__cosmos" alt="">
+		</section> -->
+
+
+	
+
+		<section class="section cases" id="Features">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section-header section-header--animated section-header--center section-header--medium-margin">
+							<h4></h4>
+							<h2  class="h2">Features</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col cases__list">
+						<div data-aos="fade-right" class="cases__item">
+							<img src="img/cases-icon-1.png" alt="" class="cases__item-icon">
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									Lowest Transaction Fees	
+								</div>
+								<p class="cases__item-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nobis ratione doloribus rerum, omnis accusantium pariatur magnam voluptatem corrupti optio illo eaque nostrum facilis sint ut exercitationem sit ab! Sapiente.</p>
+							</div>
+						</div>
+						<div data-aos="fade-left" data-aos-delay="200" class="cases__item">
+							<img src="img/cases-icon-2.png" alt="" class="cases__item-icon">
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									User-Driven Governance								</div>
+								<p class="cases__item-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium ipsum tenetur nesciunt enim! Magni laudantium, deserunt omnis vitae voluptas optio sit animi quis ad vero quisquam error vel dolores.</p>
+							</div>
+						</div>
+						<div data-aos="fade-right" class="cases__item">
+							<img src="img/cases-icon-3.png" alt="" class="cases__item-icon">
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									True Interoperable								</div>
+								<p class="cases__item-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eos iure consectetur itaque, ab, corrupti veniam harum sequi tempora ducimus nulla inventore atque iusto quia numquam eius nostrum. Magnam, beatae?</p>
+							</div>
+						</div>
+						<!-- <div data-aos="fade-left" data-aos-delay="200" class="cases__item">
+							<img src="img/cases-icon-4.png" alt="" class="cases__item-icon">
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									Auto-Scaling & High Fairness								</div>
+								<p class="cases__item-text">
+									Cavada will autoscale dynamically based on demand in the network keeping its operational cost low to retain low gas fees. The network will further process transactions on an FFS basis to ensure high fairness eliminating MEV.								</p>
+							</div>
+						</div> -->
+						<!-- <div data-aos="fade-right" class="cases__item">
+							<img src="img/cases-icon-5.png" alt="" class="cases__item-icon">
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									Simple Node Operating								</div>
+								<p class="cases__item-text">
+									Since historical data on Cavada will be offloaded to archive nodes on top of its linear scalability. hardware requirements to run a node on the network will be low. With the help of GUI. even non-technical users can run a node easily.								</p>
+							</div>
+						</div> -->
+						<!-- <div data-aos="fade-left" data-aos-delay="200" class="cases__item">
+							<img src="img/cases-icon-6.png" alt="" class="cases__item-icon">
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									Solid Security								</div>
+								<p class="cases__item-text">
+									Proof-of-Stake (PoS) with slashing. standby nodes, node rotation and permissionless participation - all contributes to boost the security of the network. Also using  the Keccak-256 hashing algorithm to improve blockchain security								</p>
+							</div>
+						</div> -->
+						<!-- <div data-aos="fade-right" class="cases__item">
+							<img src="img/cases-icon-4.png" alt="" class="cases__item-icon">
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									High Energy Efficient								</div>
+								<p class="cases__item-text">
+									A business network in blockchain uses a ledger that is shared and immutable between all the users or members with permission. Hence, through this, there is a rise in trust, security, transparency, and traceability of the shared data of all business networks. Thus you get high energy efficiencies delivering cost savings								</p>
+							</div>
+						</div> -->
+						<!-- <div data-aos="fade-left" data-aos-delay="200" class="cases__item">
+							<img src="img/cases-icon-1.png" alt="" class="cases__item-icon">
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									Engineered to involved								</div>
+								<p class="cases__item-text">
+									Built with interoperability and language compatibility in mind, Cavada is capable of evolving alongside the industry as developers and users progress. Modularity enables the Cavada technology stack to leverage new innovations to improve as governed by the community.								</p>
+							</div>
+						</div> -->
+						<!-- <div data-aos="fade-right" class="cases__item">
+							<img src="img/cases-icon-2.png" alt="" class="cases__item-icon">
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									Carbon Neutral								</div>
+								<p class="cases__item-text">
+									Cavada leverages proof of stake and other innovations to maintain minimal environmental impact Cavada Foundation is committed to being carbon neutral and building a more energy-efficient digital assets industry								</p>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+	    <img src="img/cases-bg.png"  class="cases__bg" alt="">
+			<img src="img/cases-imgs.png"  class="cases__elements" alt="">
+		</section>
+
+		<!-- <section class="data" id="stat">
+			<div class="container data__container">
+				<div class="row">
+					<div class="col">
+						<img src="img/data-bg.png" class="data__img" alt="">
+						<div class="counter__item counter__item-1">
+							<div class="counter__item-title">Current elixit price (BTC)</div>
+							<div class="counter counter__item-value counter__item-value--blue numscroller">0.052646</div>
+						</div>
+						<div class="counter__item counter__item-2">
+							<div class="counter__item-title">Avarage batches used</div>
+							<div class="counter counter__item-value counter__item-value--pink">5.658</div>
+						</div>
+						<div class="counter__item counter__item-3">
+							<div class="counter__item-title">Total batches remaining</div>
+							<div class="counter counter__item-value counter__item-value--green">20.324</div>
+						</div>
+						<div class="counter__item counter__item-4">
+							<div class="counter__item-title">Percentage batches</div>
+							<div class="counter counter__item-value counter__item-value--percent counter__item-value--purpure">65</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img src="img/data-bg-space.png" class="data__bg" alt="">
+		</section> -->
+
+		<!-- <section class="section section--no-pad-bot facts">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section-header section-header--animated section-header--center section-header--small-margin">
+							<h4>Some facts</h4>
+							<h2>Smart Contract API</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="facts__line">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="facts__line-list">
+								<div class="facts__item">
+										<img src="img/bitcon-round.png" class="facts__icon" alt="">
+										<div class="facts__title">
+											Bitcoin + RSK
+										</div>
+									</div>
+									<div class="facts__item">
+										<img src="img/stellar-round.png" class="facts__icon" alt="">
+										<div class="facts__title">
+											Stellar Lumens
+										</div>
+									</div>
+									<div class="facts__item">
+										<img src="img/counterparty-round.png" class="facts__icon" alt="">
+										<div class="facts__title">
+											Counterparty
+										</div>
+									</div>
+									<div class="facts__item">
+										<img src="img/lisk.png" class="facts__icon" alt="">
+										<div class="facts__title">
+											Lisk
+										</div>
+									</div>
+									<div class="facts__item">
+										<img src="img/eos-round.png" class="facts__icon" alt="">
+										<div class="facts__title">
+											EOS
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<img src="img/facts-bg.png" class="facts__bg" alt="">
+			</div>
+			
+		</section>
+
+		<section class="section token" id="token">
+			<div class="container">
+				<div class="row">
+					<img src="img/token-img.png" class="token__img" alt="">
+					<div data-aos="fade-left" class="col-lg-6 offset-lg-6 token__animated-content">
+						<div class="section-header section-header--tire section-header--small-margin">
+							<h4>About token</h4>
+							<h2>Token Sale</h2>
+						</div>
+
+						<ul class="token__info-list">
+							<li>
+								<span>Token name:</span> Cryptoland Token
+							</li>
+							<li>
+								<span>Ticker Symbol:</span> Cryptoland
+							</li>
+							<li>
+								<span>Currency Symbol Image	:</span> Currency Symbol Image
+							</li>
+							<li>
+								<span>Starting Price Pre-ICO:</span> Cryptoland for USD 0.08
+							</li>
+							<li>
+								<span>Maximum Eroiy produced:</span> Cryptoland for USD 0.12
+							</li>
+							<li>
+								<span>Maximum Eroiy for Sale:</span> 2 billion (technical limit)
+							</li>
+							<li>
+								<span>Fundraising Goal:</span> USD 48 million
+							</li>
+							<li>
+								<span>Minimum Purchase:</span> 100 Cryptoland
+							</li>
+						</ul>
+
+						<div class="token__desc">
+							<div class="token__desc-title">General description</div>
+							<div class="token__desc-text">
+								<p>
+									Cryptoland will be released on the basis of Ethereum platform and fully comply with ERC20* standard. 
+								</p>
+								<p>
+									Support of this standard guarantees the compatibility of the token with third-party services (wallets, exchanges, listings, etc.), and provides easy integration.
+								</p>
+							</div>
+						</div>
+
+						<a href="" class="btn btn--small btn--uppercase btn--orange"><span>Buy Token</span></a>
+
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<section class="data token-data section section--no-pad-bot" id="whitepaper">
+			<div class="container" id="Allocation">
+				<div class="row">
+					<div class="col">
+						<div class="section-header section-header--animated section-header--medium-margin section-header--center">
+							<h4></h4>
+							<h2 class="h2">Token Distribution</h2>
+						
+						</div>
+					</div>
+				</div>
+				<div class="row chart__row align-items-center">
+					<div class="col-lg-6">
+						<div class="chart">
+							<img class="chart__bg" src="img/chart-bg.png" alt="">
+							<div class="chart__wrap">
+								<canvas id="myChart" width="400" height="400"></canvas>
+							</div>
+						</div>
+					</div>
+					<div data-aos="fade-left" class="col-lg-6 token-data__animated-content">
+						<div class="chart__title">
+							Allocation of Tokens						</div>
+						<p class="chart__text">
+							Total token supply  - 1,000,000,000						</p>
+						<ul class="chart__legend">
+							<li>
+								<span style="width: 150px;"></span>
+								60% ikram
+							</li>
+							<li>
+								<span style="width: 100px;"></span>
+								40% ridha
+							</li>
+							<!-- <li>
+								<span style="width: 50px;"></span>
+								10% Ecosystem & airdrop and marketing campaign foundation	
+							</li> -->
+								<!-- <li>
+								<span style="width: 75px;"></span>
+								15%  public Sale
+							</li>
+
+							<li>
+								<span style="width: 75px;"></span>
+								15% Foundation
+							</li>
+                            <li>
+								<span style="width: 100px;"></span>
+								20% team
+							</li>
+							<li>
+								<span style="width: 150px;"></span>
+								30%  investors	</li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+	  </section>
+
+	  <section class="timeline-section" id="Roadmap">
+		<h2 class="h2">Roadmap</h2>
+		<div class="timeline-items">
+			
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+				<div class="timeline-date">Q4/2023</div>
+				<div class="timeline-content">
+					<h3>timeline item title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+				<div class="timeline-date">Q1/2024</div>
+				<div class="timeline-content">
+					<h3>timeline item title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+				<div class="timeline-date">Q2/2024</div>
+				<div class="timeline-content">
+					<h3>timeline item title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+				<div class="timeline-date">Q3/2024</div>
+				<div class="timeline-content">
+					<h3>timeline item title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+				<div class="timeline-date">Q4/2024</div>
+				<div class="timeline-content">
+					<h3>timeline item title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+				<div class="timeline-date">2025</div>
+				<div class="timeline-content">
+					<h3>timeline item title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+				<div class="timeline-date">Q1/2025</div>
+				<div class="timeline-content">
+					<h3>timeline item title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+<!-- start team section --->
+<div class="container" id="team">
+	<h2 class="h2">TEAM</h2>
+	<input type="radio" name="dot" id="one" />
+	<input type="radio" name="dot" id="two" />
+	<div class="main-card">
+	  <div class="cards">
+		<div class="card">
+		  <div class="content">
+			<div class="img">
+			  <img src="images/team-1.jpg" alt="" />
+			</div>
+			<div class="details">
+			  <div class="name">Ridha</div>
+			  <div class="job">CEO </div>
+			  <ul class="list-unstyled d-flex justify-content-center my-3">
+				<li>
+					<a href="" target="_blank" aria-label="telegram social link" class="icon icon-xs icon-telegram mr-3">
+						<span class="fab fa-telegram"></span>
+					</a>
+				</li>
+			</ul>
+			</div>
+		  </div>
+		</div>
+
+		<div class="card">
+		  <div class="content">
+			<div class="img">
+			  <img src="images/team-1.jpg" alt="" />
+			</div>
+			<div class="details">
+			  <div class="name">Ridha</div>
+			  <div class="job">Game Developer</div>
+			  <ul class="list-unstyled d-flex justify-content-center my-3">
+				<li>
+					<a href="" target="_blank" aria-label="telegram social link" class="icon icon-xs icon-telegram mr-3">
+						<span class="fab fa-telegram"></span>
+					</a>
+				</li>
+			</ul>
+			</div>
+		  </div>
+		</div>
+
+		<div class="card">
+		  <div class="content">
+			<div class="img">
+			  <img src="images/team-1.jpg" alt="" />
+			</div>
+			<div class="details">
+			  <div class="name">Ridha</div>
+			  <div class="job">Partnerships</div>
+			  <ul class="list-unstyled d-flex justify-content-center my-3">
+				<li>
+					<a href="" target="_blank" aria-label="telegram social link" class="icon icon-xs icon-telegram mr-3">
+						<span class="fab fa-telegram"></span>
+					</a>
+				</li>
+			</ul>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="cards">
+		<div class="card">
+		  <div class="content">
+			<div class="img">
+			  <img src="images/team-1.jpg" alt="" />
+			</div>
+			<div class="details">
+			  <div class="name">Ridha</div>
+			  <div class="job">Full Stack Engineer</div>
+			  <ul class="list-unstyled d-flex justify-content-center my-3">
+				<li>
+					<a href="" target="_blank" aria-label="telegram social link" class="icon icon-xs icon-telegram mr-3">
+						<span class="fab fa-telegram"></span>
+					</a>
+				</li>
+			</ul>
+			</div>
+		  </div>
+		</div>
+
+		<div class="card">
+		  <div class="content">
+			<div class="img">
+			  <img src="images/team-1.jpg" alt="" />
+			</div>
+			<div class="details">
+			  <div class="name">Ridha</div>
+			  <div class="job">Public Relations Manager</div>
+			  <ul class="list-unstyled d-flex justify-content-center my-3">
+				<li>
+					<a href="" target="_blank" aria-label="telegram social link" class="icon icon-xs icon-telegram mr-3">
+						<span class="fab fa-telegram"></span>
+					</a>
+				</li>
+			</ul>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="button">
+	  <label for="one" class="active one"></label>
+	  <label for="two" class="two"></label>
+	</div>
+  </div>
+
+  <!-- end team section --->
+
+  <section class="section section-lg pt-0" id="partnership">
+	<div class="container">
+		<div class="row justify-content-center mb-5">
+			<h2 class="h2">Partnership</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4" align="center">
+				<img src="images/logo.png" width="250px" alt="PadSwap"/>
+			</div>
+			<div class="col-md-4" align="center">
+				<img src="images/logo.png" width="250px" alt="Nomics"/>
+			</div>
+			<div class="col-md-4" align="center">
+				<img src="images/logo.png" width="250px" alt="Nomics"/>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+  <footer class="d-flex pb-5 pt-6 pt-md-7 border-top border-light ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <p>VonxBlockchain is here with great strength & ability to help DEFI investors to gain access to unique projects & utilities, giving the best to add more value to the Blockchain technology.</p>
+                <ul class="d-flex list-unstyled mb-5 mb-lg-0">
+                    <li class="mr-2">
+                        <a href="" target="_blank" class="btn btn-icon-only btn-pill btn-primary" aria-label="twitter social link"
+                        data-toggle="tooltip" data-placement="top" title="Follow safutrendz on Twitter">
+                            <span aria-hidden="true" class="fab fa-twitter"></span>
+                        </a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="" target="_blank" class="btn btn-icon-only btn-pill btn-primary" aria-label="dribbble social link"
+                        data-toggle="tooltip" data-placement="top" title="Subscribe on Telegram">
+                            <span aria-hidden="true" class="fab fa-telegram"></span>
+                        </a>
+                    </li>
+                  
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-5 mb-lg-0">
+                <h5>COMPANY</h5>
+                <ul class="footer-links list-unstyled mt-2">
+                    <li class="mb-1"><a class="p-2" href="#Services">Services</a></li>
+                    <li class="mb-1"><a class="p-2" href="#About-Us">About Us</a></li>
+                    <li class="mb-1"><a class="p-2"  href="#Features">Features</a></li>
+                    <li class="mb-1"><a class="p-2" href="#Allocation">Allocation</a></li>
+                    <li class="mb-1"><a class="p-2"  href="#Roadmap">Roadmap</a></li>
+					<li class="mb-1"><a class="p-2" href="#Team">Team</a></li>
+					<li class="mb-1"><a class="p-2"  href="#Partnership">Partnership</a></li>
+                    <li class=""><a class="p-2" target="_blank" href="mailto:">Mail Us</a></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                <h5>CONNECT WITH US</h5>
+                <p class="text-gray font-small mt-2">Join us to stay updated</p>
+                <form action="#">
+                    <div class="form-row mb-2">
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary btn-block" data-loading-text="Sending">
+                                <a href="" target="_blank" style="color: black!important;"><span>Join Telegram Group</span></a>
+                            </button>
+                            
+                            <button type="submit" class="btn btn-primary btn-block" data-loading-text="Sending">
+                                <a href="" target="_blank" style="color: black!important;"><span>Join Telegram Channel</span></a>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="row">
+            <div class="col">
+                <a href="index.html" target="_blank" class="d-flex justify-content-center">
+                    <img src="images/logo.png" height="100px" width="100px" class="mb-3" alt="safutrendz Logo">
+                </a>
+            <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+                <p class="font-weight-normal font-small mb-0">Copyright © VonxBlockchain
+                    <span class="current-year">2023</span>. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+	</div>
+
+	<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')</script>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+<!-- Mirrored from cavada.org/ by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 12 Dec 2023 00:17:08 GMT -->
+</html>
